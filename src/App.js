@@ -90,7 +90,7 @@ const App = () => {
 
   useEffect(() => {
     const root = document.documentElement;
-    root.style.fontSize = fontSize === 'small' ? '12px' : fontSize === 'large' ? '16px' : '14px';
+    root.style.fontSize = fontSize === 'small' ? '13px' : fontSize === 'large' ? '17px' : '15px';
   }, [fontSize]);
 
   const changeLanguage = (lang) => i18n.changeLanguage(lang);
